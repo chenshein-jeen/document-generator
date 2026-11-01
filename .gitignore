@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# IDE / editor
+.idea/
+.claude/
+
+# Local storage backend's runtime data dir (dev only) - anchored to repo
+# root so it doesn't also match app/storage/, the actual source package.
+/storage/
+
+# Sample/working .docx files - real org letterhead, not for the repo
+*.docx
+
+# Scratch/debug artifacts
+scratch_*
+
+# Built Docker image export - large binary, not source
+mafat-docgen-amd64.tar
+
+.venv/
+.DS_Store
